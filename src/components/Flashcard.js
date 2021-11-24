@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const Flashcard = ({flashcard}) => {
   const [ flip, setFlip ] = useState(false)
