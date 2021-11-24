@@ -62,6 +62,8 @@ body {
   transition: 150ms;
   cursor: pointer;
   transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  /* width: 250px; */
+  height: 200px;
 }
 
 .card:hover {
